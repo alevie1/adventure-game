@@ -1,12 +1,12 @@
 #just some descriptions of rooms for this game
 
-#room1/field
+#room221/field
 """You find yourself in a strange wasteland.
 You can see no sky, and it's too dark to make out much.
 To the east, metal shrapnel litters the ground.
 To the west, you can vaguely make out a haze of light."""
 
-#room2/escape
+#room220/escape
 	#if all conditions reached
 """You pick your way over the field, your way lit by the lamp 
 and your magical core guarded by the adamantine armor."""
@@ -16,11 +16,11 @@ of the strange metal as if it is ripping your very soul apart. You back up. Best
 	#if you haven't found the (light maybe?? unsure. other condition)
 """It's too dark to see anything."""
 
-#room3/travel
+#room222/travel
 """The path is worn and cracked, but was once expertly paved.
 Absently, you wonder what could have damaged it so badly."""
 
-#room4/scraps
+#room223/scraps
 """A field of random junk. The items that most interest you are an old box, a silver mirror,
 a bag filled with strange coins, and an ornate table."""
 	#items - flavor text
@@ -40,21 +40,21 @@ a bag filled with strange coins, and an ornate table."""
 		like it's hiding them not from sight, but from thought."""
 
 
-#room5/townsquare
+#room224/townsquare
 """A huge square opening near the entrance to an abandoned city. Gorgeous but decrepit buildings line the paths.
 Strange magical phenomena are visible all around- a pillar of purple flame, a group of skittering rats with
 gossamer wings, a strange shadowy figure which you think it best not to approach.
 An eerie silence fills the whole place. The streets sprawl out in front of you."""
 
-#room6/towers
+#room214/towers
 """This road is lined with huge spire-like structures. They may have once been beautiful.
 One of them seems intact enough to enter."""
 
-#room7/labfloor1
+#room204/labfloor1
 """A laboratory building, or perhaps a mechanic's shop? Tools line the 
 walls and are scattered across the floor. There's a flight of stairs at the back."""
 
-#room8/labfloor2
+#room304/labfloor2
 """Papers litter the floor. There's a table in the middle which holds dismembered 
 parts, presumably of another warforged. A notebook sits next to the scattered screws and plates."""
 	#notebook
@@ -92,7 +92,7 @@ parts, presumably of another warforged. A notebook sits next to the scattered sc
 		"""The rest of the book is blank."""
 		"""Under the notebook is a scrap of paper with a code written on it: [code lol]."""
 
-#labbasement
+#room104/labbasement
 """A robot like you sits in the corner, mostly dismantled. Its eyes glow as it wakes up. You hear a voice in your head."""
 	#robot lines
 		"""Hello. It's been awhile since - - -an --yone came down here. I am - --- E -- Es Ther - -- """
@@ -104,11 +104,11 @@ parts, presumably of another warforged. A notebook sits next to the scattered sc
 		"""You helped Esther to put her body back together. She leaves, setting something on the floor."""
 		"""A crystal. It glows blue. Holding it, you remember something..."""
 
-#room9/mindflayers
+#room234/mindflayers
 """It seems a group of illithids have set up a base in this part of town. You try to get past, 
 but they sense your consciousness and drive you away."""
 
-#room10/armory
+#room244/armory
 """An armory, filled with weapons and armor. Most of it is rusted beyond repair, but you catch a gleam
 of metal near the back."""
 	#armor
@@ -118,26 +118,27 @@ of metal near the back."""
 	#if they take it
 	"""A crystal. It glows blue. Holding it, you remember something..."""
 
+#rooms225-127 - travel rooms, describe path to crater
 
-#room11/crater
+#room228/crater
 """An enormous crater."""
 
-#room12
+#room128
 """There's a metal door built into the ground. Looks like you need a password to enter."""
 
-#room13
+#room028
 """Looks like the interior of a fallout bunker. Evidently it didn't protect its inhabitants well enough-
 a skeleton lies in the corner. Shelves line the back wall- historical records, it appears."""
 	#The records have things in them
 	#If you try to take something
 	"""Something glints blue from the skeleton's hand."""
 
-#catacombs under lab
+#room004/catacombs
 	"""As you descend deeper into the basement, into the very bowels of the city, you can feel a presence.
 	Something is wrong here. At last, you reach flat ground in a tunnel. You catch a glimpse of something
 	glowing ahead."""
 
-#tomb
+#room024/tomb
 	"""A huge cavern. In the center lies a massive body, made of a stone-like substance. Dried oil-like
 	blood cakes the ground beneath it, and huge sections are missing or collapsed. The inside is filled
 	with blue crystals, which it appears were being mined from the body. You can feel one calling to you."""
